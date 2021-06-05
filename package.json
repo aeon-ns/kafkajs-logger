@@ -1,0 +1,29 @@
+{
+  "name": "kafkajs-logger",
+  "version": "1.0.0",
+  "description": "A custom winston logger for KafkaJS",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeon-ns/kafkajs-logger.git"
+  },
+  "keywords": [
+    "winston",
+    "logger",
+    "kafkajs",
+    "log",
+    "logging",
+    "kafka",
+    "color",
+    "colorise"
+  ],
+  "author": "Nisheet Sharma <nisheet.sharma@live.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeon-ns/kafkajs-logger/issues"
+  },
+  "homepage": "https://github.com/aeon-ns/kafkajs-logger#readme"
+}
