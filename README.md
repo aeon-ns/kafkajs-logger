@@ -1,15 +1,19 @@
 # kafkajs-logger
-A custom winston logger for KafkaJS
+A custom winston console logger for KafkaJS
 
 ## Usage
 ```js
 
-    const { Kafka } = require('kafkajs');
+    const { Kafka }         = require('kafkajs');
+    const KafkaJSLogCreator = require('kafkajs-logger');
 
     const kafka = new Kafka({
-        clientId  : 'my-app-consumer',
+        clientId  : 'my-app',
         brokers   : ['localhost:9092'],
-        logCreator: require('kafkajs-logger')
+        logCreator: KafkaJSLogCreator
     });
 
 ```
+
+## Console Output 
+![alt text](https://raw.githubusercontent.com/aeon-ns/kafkajs-logger/master/kafkajs-logger-screenshot.png)

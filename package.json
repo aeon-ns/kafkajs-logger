@@ -1,7 +1,7 @@
 {
   "name": "kafkajs-logger",
   "version": "1.0.0",
-  "description": "A custom winston logger for KafkaJS",
+  "description": "A custom winston console logger for KafkaJS",
   "main": "logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,9 @@
     "logging",
     "kafka",
     "color",
-    "colorise"
+    "colorise",
+    "chalk",
+    "console"
   ],
   "author": "Nisheet Sharma <nisheet.sharma@live.in>",
   "license": "MIT",

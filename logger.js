@@ -1,7 +1,7 @@
-const { logLevel }     = require('kafkajs');
-const winston          = require('winston');
-const chalk            = require('chalk');
-const { LEVEL } = require('triple-beam');
+const { logLevel } = require('kafkajs');
+const winston      = require('winston');
+const chalk        = require('chalk');
+const { LEVEL }    = require('triple-beam');
 
 const toWinstonLogLevel = level => {
     switch (level) {
